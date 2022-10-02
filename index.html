@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GW-Fighters</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/timeline.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm" id = "home-sec">
+        <div class="container">
+            <a href="#" class="navbar-brand p-3">
+                <img class="logo-img" src="/images/logo.png" alt="logo of GW-Fighters">
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+            <div class="collapse navbar-collapse" id="navbar-list">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a> </li>
+                    <li class="nav-item"><a href="#timeline-sec" class="nav-link">Time Line</a> </li>
+                    <li class="nav-item"><a href="#about-us" class="nav-link">About Us</a> </li>
+                    <li class="nav-item"><a href="#our-mission" class="nav-link">Our Mission</a> </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+
+    <section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="images/m1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="images/m2.PNG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="images/m3.PNG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="images/m4.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="text-center">The Mississippi River landmass growing and sinking in different areas.</h2>
+        <img class="deltaimg" src="images/Delta-X.gif" alt="Delta-X">
+    </section>
+
+    <section class="timeline-section" id="timeline-sec">
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2015</div>
+                <div class="timeline-content">
+                    <h3>Delta-X</h3>
+                    <p>The Delta-X mission is a 5-year NASA mission to study the Mississippi River Delta in the United States, which is growing and sinking in different areas. </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2016</div>
+                <div class="timeline-content">
+                    <h3>Water Level Value</h3>
+                    <p>The Map of water level changes based on water surface elevations measured by UAVSAR on October 16, 2016, at 14:08 and 16:37 UTC. This shows the data of 10km.</p>
+                    <img class="timeline-img" src="images/changeinwaterlevel.png" alt="">
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2016</div>
+                <div class="timeline-content">
+                    <h3>Landmass Density</h3>
+                    <p>These images shows the cumulative changes in water levels at 30-minute intervals over a 150-minute period on 2016-10-16 in the Atchafalaya Basin in Southern Louisiana, USA, within the Mississippi River Delta (MRD) floodplain. </p>
+                    <img src="images/first30cm.PNG" alt="First" class="timeline-img">
+                    <p>The water surface changes after 30 min intervel shows the landmass decreased</p>
+                    <img src="images/second60cm.PNG" alt="second60cm" class="timeline-img">
+                    <p>The water surface changes after 60 min intervel </p>
+                    <img src="images/third90cm.PNG" alt="third90cm" class="timeline-img">
+                    <p>The water surface changes after 90 min intervel </p>
+                    <img src="images/fourth120cm.PNG" alt="fourth120cm" class="timeline-img">
+                    <p>The water surface changes after 120 min intervel </p>
+                    <img src="images/fifth150com.PNG" alt="fifth150com" class="timeline-img">
+                    <p>The water surface changes after 150 min intervel. Here the land surface is decreased too much before the 30 min intervel and the land masses decreased from different areas. </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="text-center" id="about-us">
+        <h2>About Us</h2>
+        <div>
+            <img class="aboutp" src="images/bhuwan.jpeg" alt="bhuwan"><br>
+            <span>Bhuwan Raj Pandey</span><br>
+            <span>pandeybhuwan138@gmail.com</span>
+        </div>
+        <div>
+            <img class="aboutp" src="images/santosh.jpg" alt="santosh"><br>
+            <span>Santosh Pant</span><br>
+            <span>pantsantosh23@gmail.com</span>
+        </div>
+    </section>
+    <hr>
+    <section class="text-center container" id="our-mission">
+        <h1>Our Mission</h1>
+        <p>Our Mission is to make people aware of Earth's changing climate and how we human, knowingly and unknowingly, played the crital role in climate chang. </p>
+        <p>Sea level rises threatening Deltas around the world but the Mississippi River Delta is losing land faster than all the others due to human activities such as mining and extraction of underground fluids: petroleum, natural gas, or groundwater. We've developed a web app that educates people about climate change and what are the reasons for it by utilizing data from NASA’S AIRBORNE Campaign. We have put an effort to make people understand the importance of the Mississippi River Delta which is home to many endangered species. It is important for people to know the impacts of human activities on our environment so that they can be aware and responsible and work together to fight against it.</p>
+    </section>
+   
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <div class="top"><a href="#home-sec"> <img src="images/scroll up.png" alt="up arrow"> </a></div>
+</body>
+</html>
